@@ -105,7 +105,9 @@ const uint8_t kToshibaAcFan =  4;                // 0b100
 const uint8_t kToshibaAcOff =  7;                // 0b111
 const uint8_t kToshibaAcFanAuto = 0;   //      0b000
 const uint8_t kToshibaAcFanMin =  1;   //      0b001
+const uint8_t kToshibaAcFanLow =  2;   //   0b011
 const uint8_t kToshibaAcFanMed =  3;   //      0b011
+const uint8_t kToshibaAcFanHigh =  4;   //   0b011
 const uint8_t kToshibaAcFanMax =  5;   //      0b101
 
 const uint8_t kToshibaAcTurboOn = 1;       //            0b01
