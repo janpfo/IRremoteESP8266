@@ -483,9 +483,9 @@ String IRToshibaAC::toString(void) const {
       if (getPower())
         result += addModeToString(getMode(), kToshibaAcAuto, kToshibaAcCool,
                                   kToshibaAcHeat, kToshibaAcDry, kToshibaAcFan);
-      result += addFanToString(getFan(), kToshibaAcFanMax, kToshibaAcFanMin,
-                               kToshibaAcFanAuto, kToshibaAcFanAuto,
-                               kToshibaAcFanMed, kToshibaAcFanLow, kToshibaAcFanHigh);
+      result += addFanToString(getFan(), kToshibaAcFanHigh, kToshibaAcFanLow,
+                               kToshibaAcFanAuto, kToshibaAcFanQuiet,
+                               kToshibaAcFanMed, kToshibaAcFanMax);
       result += addBoolToString(getTurbo(), kTurboStr);
       result += addBoolToString(getEcono(), kEconoStr);
       result += addBoolToString(getFilter(), kFilterStr);
