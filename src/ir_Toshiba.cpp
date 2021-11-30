@@ -485,7 +485,7 @@ String IRToshibaAC::toString(void) const {
                                   kToshibaAcHeat, kToshibaAcDry, kToshibaAcFan);
       result += addFanToString(getFan(), kToshibaAcFanMax, kToshibaAcFanMin,
                                kToshibaAcFanAuto, kToshibaAcFanAuto,
-                               kToshibaAcFanMed);
+                               kToshibaAcFanMed, kToshibaAcFanLow, kToshibaAcFanHigh);
       result += addBoolToString(getTurbo(), kTurboStr);
       result += addBoolToString(getEcono(), kEconoStr);
       result += addBoolToString(getFilter(), kFilterStr);
